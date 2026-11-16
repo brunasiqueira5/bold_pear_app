@@ -29,6 +29,19 @@ Para usar outro projeto:
 
 ## Painel NASA (admin)
 
+### Acesso de demonstração
+
+| E-mail | Senha |
+|---|---|
+| `admin.nasa@nasa.com` | `Nasa2026` |
+
+Esta conta abre o **painel de administração com todos os astronautas**: ao entrar com ela, o
+app vai direto para `/admin`, com os indicadores de toda a tripulação e a ficha completa de cada
+astronauta (perfil, check-ins, pontuações de PHQ-9/GAD-7, alertas e histórico). O acesso é só de
+leitura. Para ver o app como astronauta, crie uma conta comum pelo cadastro.
+
+### Como funciona
+
 Contas listadas em `public.admins` entram direto no painel `/admin` (sem pera, onboarding ou
 check-in). O painel mostra os indicadores da tripulação (ativos, atrasados, em atenção, item 9,
 médias de PHQ-9/GAD-7, adesão, faixas, check-ins por semana, sintomas mais marcados) e a ficha
